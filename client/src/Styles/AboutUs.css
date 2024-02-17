@@ -1,0 +1,72 @@
+.mainAboutUsCOntainer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+  }
+  
+  .partOne {
+    display: flex;
+    flex-direction: column;
+    
+    height: 100%;
+    width: 100px;
+justify-content: flex-start;
+padding: 50px;
+    flex:1;
+    gap: 30px;
+  }
+  
+  .partTwo {
+    height: 100%;
+    width: 100px;
+   
+    flex: 1;
+  }
+  
+  .aboutusTitle{
+    color: blue;
+  }
+
+  .aboutUsQuestion{
+    color: #142683;
+  }
+
+  .partTwo{
+   height: 100%;
+    width: 100%;
+   
+    margin: 0;
+    border-radius: 5px;
+  }
+
+  .AboutUsImage{
+    height:450px;
+    width: 100%;
+    border-radius: 10px;
+    
+  }
+
+  @media (max-width: 768px) {
+    .mainAboutUsCOntainer {
+        display: flex;
+        justify-content: center;
+      flex-direction: column;
+      align-items: center;
+    }
+    
+    .partOne{
+        width: 100%;
+      max-width: 100%; 
+    }
+
+    .partTwo {
+      width: 100%;
+      max-width: 200px; /* Adjust max-width as needed */
+    }
+    .AboutUsImage{
+        height:450px;
+        width: 300px;
+      }
+  }
+  

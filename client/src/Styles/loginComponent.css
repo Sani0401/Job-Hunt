@@ -1,0 +1,119 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,400;0,9..40,500;1,9..40,400;1,9..40,700&display=swap');
+
+input{
+    padding: 10px;
+}
+
+.MainLoginComponentContainer{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.mainContainer{
+    height:500px;
+    width: 400px;
+    border: 1px solid #ebf0f5;
+   border-radius: 10px;
+   position: relative;
+   bottom: 30px;
+}
+
+.signInText{
+    display: flex;
+    flex-direction: row;
+    padding: 20px;
+    justify-content: space-between;
+    align-items: center;
+    margin: 10px;
+    font-family: 'DM Sans', sans-serif;
+}
+
+.textSignup{
+    font-size: small;
+}
+
+
+.horizontalLine{
+    width: 85%;
+    position: relative;
+    left: 30px;
+    bottom: 20px;
+    color: #C7C8CC;
+}
+
+.InputFields{
+    display: flex;
+    flex-direction: column;
+    font-family: 'DM Sans', sans-serif;
+    font-weight: bold;
+    color: grey;
+    padding: 20px;
+    position: relative;
+    bottom: 30px;
+    gap: 10px;
+    
+}
+
+.EmailInput{
+    height: 35px;
+    width: 350px;
+   &:focus{
+    border: 1px solid #142683;
+   }
+}
+
+.PasswordInput{
+    height: 35px;
+    width: 350px;
+    
+}
+
+.EmailInput:focus,
+.PasswordInput:focus {
+    border: 1px solid #142683; 
+    border-radius: 5px;/* Change the border color as per your requirement */
+}
+.forgotPasswordLabel{
+    padding: 20px;
+    position: relative;
+    bottom: 45px;
+    color: grey;
+}
+
+.LoginButton{
+    height: 35px;
+    width: 350px;
+   margin-left: 20px;
+   position: relative;
+   bottom: 40px;
+   background-color:#142683 ;
+
+   &:hover{
+    background-color: white;
+    color: black;
+   }
+}
+
+.borderDiv{
+    border-bottom: 1px solid #C7C8CC;
+    width: 350px;
+   position: relative;
+   left: 20px;
+   bottom: 10px;
+}
+
+.footer{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin: 20px;
+    font-family: 'DM Sans', sans-serif;
+}
+
+.AnchorTag{
+    font-weight: bold;
+    
+}

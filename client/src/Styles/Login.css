@@ -1,0 +1,166 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,400;0,9..40,500;1,9..40,400&display=swap');
+.MainContainer{
+  display: flex;
+}
+.imagesIntro{
+  display: flex;
+  flex: 1;
+  flex-direction: column;
+  background-color: #dee0e3;
+  justify-content: center;
+  align-items: flex-start;
+  padding: 50px;
+}
+
+.loginInput{
+  display: flex;
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.title-header h4  {
+  margin: 0;
+  font-weight: 600;
+  font-size: 24px;
+}
+.label{
+  color:grey;
+}
+
+.title-header{
+  position: relative;
+  left: 10px;
+  font-family: 'DM Sans', sans-serif;
+  
+    
+}
+
+.image{
+  height: auto;
+  width: 300px;
+}
+/* Data display divs */
+
+.dataContainer{
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.firstRow{
+  display: flex;
+  flex-direction: row;
+  gap: 30%;
+}
+
+.secondRow{
+  display: flex;
+  flex-direction: row;
+  gap: 30%;
+}
+
+.jobsCount{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  padding: 10px;
+
+}
+
+.jobIcon{
+  height: 25px;
+  width: 25px;
+  margin: 5px;
+}
+
+.count{
+  margin: 0;
+  font-size: 30px;
+  font-family: 'DM Sans', sans-serif;
+  color: grey;
+}
+.jobs{
+  color: #B4B4B8;
+  font-size: 18px;
+  display: block;
+  width: 110px;
+}
+
+.SocialsLogin{
+  margin-top: 40px;
+display: flex;
+flex-direction: row;
+gap: 30px;
+position: relative;
+left: 35%;
+}
+
+.SocialsLogin img{
+  height: 30px;
+  width: 30px;
+  cursor: pointer;
+}
+
+.closing{
+  margin-top: 20px;
+  font-family: 'DM Sans', sans-serif;
+  color: grey;
+  display: flex;
+  flex-direction: row;
+  gap: 5px;
+  
+}
+
+.copyright{
+  position: relative;
+  left: 50%;
+  top: 100px
+}
+
+.terms{
+  cursor: pointer;
+  position: relative;
+  left: 50%;
+  top: 100px
+}
+.question{
+  font-family: 'DM Sans', sans-serif;
+}
+
+
+/* Login Side */
+
+.buttonStarting{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  bottom: 70px;
+  gap: 10px;
+}
+.Student{
+  background-color: #142683;
+  &:hover{
+    background-color: #142683;
+    color: white;
+  }
+  font-family: 'DM Sans', sans-serif;
+}
+
+.admin{
+  background-color: white;
+  border: 1px solid #142683;
+  color: black;
+
+  &:hover{
+    background-color: white;
+    color: black;
+  }
+  font-family: 'DM Sans', sans-serif;
+}

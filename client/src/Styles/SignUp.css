@@ -1,0 +1,168 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,400;0,9..40,500;1,9..40,400&display=swap');
+
+.signUp_MainContainer {
+  display: flex;
+}
+
+.signUp_imagesIntro {
+  display: flex;
+  flex: 0.7;
+  flex-direction: column;
+  background-color: #f7f8fa;
+  justify-content: center;
+  align-items: flex-start;
+  padding: 50px;
+}
+
+.signUp_loginInput {
+  display: flex;
+  flex: 1;
+
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.signUp_title-header h4 {
+  margin: 0;
+  font-weight: 600;
+  font-size: 24px;
+}
+
+.signUp_label {
+  color: grey;
+}
+
+.signUp_title-header {
+  position: relative;
+  left: 10px;
+  font-family: 'DM Sans', sans-serif;
+}
+
+.signUp_image {
+  height: auto;
+  width: 300px;
+}
+
+/* Data display divs */
+
+.signUp_dataContainer {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.signUp_firstRow {
+  display: flex;
+  flex-direction: row;
+  gap: 30%;
+}
+
+.signUp_secondRow {
+  display: flex;
+  flex-direction: row;
+  gap: 30%;
+}
+
+.signUp_jobsCount {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  padding: 10px;
+}
+
+.signUp_jobIcon {
+  height: 25px;
+  width: 25px;
+  margin: 5px;
+}
+
+.signUp_count {
+  margin: 0;
+  font-size: 30px;
+  font-family: 'DM Sans', sans-serif;
+  color: grey;
+}
+
+.signUp_jobs {
+  color: #b4b4b8;
+  font-size: 18px;
+  display: block;
+  width: 110px;
+}
+
+.signUp_Socials {
+  margin-top: 70px;
+  display: flex;
+  flex-direction: row;
+  gap: 30px;
+  position: relative;
+  left: 35%;
+}
+
+.signUp_Socials img {
+  height: 30px;
+  width: 30px;
+  cursor: pointer;
+}
+
+.signUp_closing {
+  margin-top: 20px;
+  font-family: 'DM Sans', sans-serif;
+  color: grey;
+  display: flex;
+  flex-direction: row;
+  gap: 5px;
+}
+
+.signUp_copyright {
+  position: relative;
+  left: 50%;
+  top: 20px;
+}
+
+.signUp_terms {
+  cursor: pointer;
+  position: relative;
+  left: 50%;
+  top: 20px;
+}
+
+.signUp_question {
+  font-family: 'DM Sans', sans-serif;
+}
+
+/* Login Side */
+
+.signUp_buttonStarting {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  bottom: 25px;
+  gap: 10px;
+
+}
+
+.signUp_Student {
+  background-color: #142683;
+  &:hover {
+    background-color: #142683;
+    color: white;
+  }
+  font-family: 'DM Sans', sans-serif;
+}
+
+.signUp_admin {
+  background-color: white;
+  border: 1px solid #142683;
+  color: black;
+  &:hover {
+    background-color: white;
+    color: black;
+  }
+  font-family: 'DM Sans', sans-serif;
+}

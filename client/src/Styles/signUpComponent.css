@@ -1,0 +1,143 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,400;0,9..40,500;1,9..40,400&display=swap');
+
+input{
+    padding: 10px;
+}
+
+label{
+    color: black;
+}
+
+.mainSignupComponentContainer{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  align-items: center;
+    border: 1px solid #ebf0f5;
+    height: 85%;
+    width: 600px;
+    position: relative;
+    border-radius: 10px;
+    
+}
+
+.Componentheader{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items:center;
+    
+}
+
+.CreateHeader{
+    font-family: 'DM Sans', sans-serif;
+    position: relative;
+    top: 30px;
+    padding: 10px;
+}
+.signInTextSignIn{
+    display: flex;
+   flex-direction: column;
+   justify-content: center;
+   align-items: center;
+   position: relative;
+   margin-top: 30px;
+}
+
+.horizontalLineSignup{
+    color:   #C7C8CC; 
+    width: 70%;
+    position: relative;
+  bottom: 25px;
+
+}
+
+.inputMainContainer{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 40px;
+    
+}
+
+.inputMainContainer input{
+    width: 250px;
+    height: 40px;
+    border: 1px solid #d8dfe8;
+    border-radius: 10px;
+    line-height: 18px;
+
+   
+}
+
+.inputMainContainer label{
+    font-family: 'DM Sans', sans-serif;
+    font-weight: bold;
+}
+
+.firstInputCol{
+    display: flex;
+    flex-direction: row;
+    gap: 25px;
+    position: relative;
+    bottom: 45px;
+}
+.firstInput{
+    display: flex;
+    flex-direction: column;
+}
+
+.mobileNumberInput{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+   justify-content: flex-start;
+   align-items: center;
+   gap: 20px;
+   position: relative;
+   bottom: 60px;
+}
+
+.test{
+    display: flex;
+    flex-direction: column;
+}
+
+.test input{
+    width: 530px;
+}
+
+.checkbox{
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+    position: relative;
+    right: 65px;
+    bottom: 75px;
+}
+
+.checkbox input{
+    height: 20px;
+    width: 20px;
+    
+}
+
+.CreateAccountButton{
+    width: 530px;
+    position: relative;
+    bottom: 70px;
+    background-color: #142683;
+}
+
+.selectingOptions{
+    width: 530px;
+    height: 40px;
+    border-radius: 10px;
+    border-color: #C7C8CC;
+}
+
+.closing{
+    position: relative;
+    bottom: 70px;
+}

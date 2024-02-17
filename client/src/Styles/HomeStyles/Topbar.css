@@ -1,0 +1,22 @@
+.navbar{
+    font-size: 18px;
+    display: flex;
+    flex-direction: row;
+   justify-content: flex-end;
+}
+
+.pageList{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    
+}
+
+.pageList a {
+  color: white
+}
+
+.topbar__header{
+    background-color: #142683;
+}
+
